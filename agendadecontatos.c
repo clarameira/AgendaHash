@@ -186,7 +186,7 @@ int main(){
 
                     printf("Digite o nome: ");
                     scanf("%s", nome);
-                    fflush(stdin);
+                    fflush(stdin); //Descarregando o buffer.
 
                     printf("Digite o telefone: ");
                     scanf("%s", tel);
